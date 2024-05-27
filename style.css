@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    
+}
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.section-one{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    color: #fff;
+    border-radius: 3px;
+    border-radius: 10px;
+}
+.section-one__name{
+    font-size: 60px;
+    
+}
+.section-one__role{
+    font-size: 30px;
+   
+}
+.section-one__contact{
+    background-color: orangered;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.section-one,.section-two,.section-three,.section-four,.section-five{
+    margin-top: 10px;
+
+}
+.section-one__description,.section-two__description,.section-three__description,.section-five__description{
+    margin-top: 10px;
+
+}
+.section-five{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    border-radius: 3px;
+    border-radius: 10px;
+}
+.section-five__title a{
+    text-decoration: none;
+    color: skyblue;
+}
+.section-three li,.section-four li{
+    list-style-type: none;
+}
+.section-three{
+    background-color: #6462fd;
+    padding: 20px;
+    display: inline-block;
+    height: 230px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.section-four{
+    background-color: #fe7517;
+    padding: 20px;
+    display: inline-block;
+    min-height: 230px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.contact-form{
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+    
+}
+.contact-form form{
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+
+}
+
+
+.contact-form__input,.contact-form__input,.contact-form__textarea,.contact-form__sumit{
+    
+    margin-top: 10px;    
+   
+   
+}
+
+.contact-form__textarea{
+   
+    padding: 10px;
+}
+.contact-form__textarea:focus{
+     outline: none;
+    
+}
+.contact-form__input{
+    
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+   
+}
+.contact-form__input:focus{
+    outline: none;
+}
+.contact-form__sumit{
+    padding: 5px 10px ;
+    background-color: #fe7517;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin: 0;
+}
+
+
